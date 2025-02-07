@@ -1,10 +1,10 @@
 # OData
 OData (Open Data Protocol), URL üzərindən data mənbələrini sorğulamaq və əldə ediləcək nəticələri özəlləşdirmək üçün istifadə edilən REST və ya HTTP əsaslı bir protokoldur. HTTP əsaslı olduğu üçün bütün sorğular URL üzərindən həyata keçirilir. API-lar da əldə ediləcək məlumatların özəlləşdirilməsi və ehtiyaclara uyğun fərqli formatlara çevrilməsi üçün normalda fərqli endpointlərin yazılması ehtiyacını aradan qaldıraraq birbaşa olaraq entitylər üzərində sorğuları həyata keçirməyə imkan verir və developerların yalnız buisness logic ilə məşğul olmasını təmin edir. Beləliklə, çox sürətli şəkildə məlumat modellərinə aid xidmətlərin yaradılmasına şərait yaradır.
 
-#OData Məlumat Modeli Necədir?
+# OData Məlumat Modeli Necədir?
 Struktural olaraq, client tərəfindən göndərilən sorğu tələbi server tərəfində işlənərək nəticə yaradılır və client-a göndərilir. Əlavə olaraq, client tərəfindən tələb olunan metadata sənədi ilə OData, istifadə etdiyi entitylərin təfərrüatları barədə client-ı məlumatlandıra bilir.
 
-OData ilə Eyni Funksionallığa Malik Populyar GraphQL Arasındakı Fərqlər Nələrdir?
+# OData ilə Eyni Funksionallığa Malik Populyar GraphQL Arasındakı Fərqlər Nələrdir?
 
 Əslində, hər ikisi də eyni əməliyyatı yerinə yetirir. Lakin burada biz fərqlərə toxunarkən, hər iki yanaşmanın üstünlüklərini və mənfi cəhətlərini nəzərə alaraq qiymətləndirmə aparacaq və bu qiymətləndirmənin nəticəsində hansının seçilməli olduğunu müzakirə edəcəyik.
 
