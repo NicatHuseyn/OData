@@ -16,7 +16,8 @@ Developer usability baxımından:
 - OData, filtering, sorting, selecting və ya expanding əmrlərini GraphQL-ə nisbətən daha sürətli şəkildə dəstəkləyir.
 - GraphQL, Asp.NET Core tətbiqlərində hər query üçün type, schema, query və implement resolver (həll edici tətbiq etmə) quruluşlarının inkişaf etdirilməsini tələb edir, bu da çox iş yükü 
   yaradır.
-Performance (Performans) baxımından:
+  
+Performance baxımından:
 
 - Performans, istifadə edilən yanaşmadan daha çox ediləcək query məntiqinə bağlıdır. Həm GraphQL, həm də OData, artıq hər iki halda da $select operatoru istifadə edilərək istənilən query 
   yaradılabilir və nəticə əldə edilə bilər.
