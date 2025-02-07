@@ -26,13 +26,16 @@ Performance baxımından:
   
 Əlavə olaraq, aşağıdakı cədvəllərdə hər açıdan edilən müqayisələri nəzərdən keçirə bilərsiniz.
 Standard API
+<br>
 
 <img src="https://www.gencayyildiz.com/blog/wp-content/uploads/2020/05/OData-Nedir-GraphQLden-Fark%C4%B1-Nedir..jpg" />
 
 Sorğu Bacarığı
+<br>
 <img src="https://www.gencayyildiz.com/blog/wp-content/uploads/2020/05/OData-Nedir-GraphQLden-Fark%C4%B1-Nedir.-1.jpg" />
 
 Surface Capability
+<br>
 <img src="https://www.gencayyildiz.com/blog/wp-content/uploads/2020/05/OData-Nedir-GraphQLden-Fark%C4%B1-Nedir.-2-768x239.jpg" />
 <hr>
 Bu qarşılaşdırmalardan əldə edilən nəticəyə görə, Asp.NET Core tətbiqlərində CRUD əməliyyatları üçün minimum zəhmət ilə məlumat mənbəyinə giriş təmin etmək istəndikdə, OData seçilə bilən protokol olacaqdır.
