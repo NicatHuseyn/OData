@@ -73,36 +73,70 @@ app.UseEndpoints(endpoints =>
 <b>Qarşılaşdırma operatorları</b>
 <br>
 
-- eq (Equal)
-Ölkə Adı USA olanları gətir.
-  ```
-  https://localhost:5001/odata/personel?$filter=ulke eq 'USA'
-  ```
-- ne (Not Equal)
-  Ölkə adı USA olmayanları gətir
-  ```
-  https://localhost:5001/odata/personel?$filter=ulke ne 'USA'
-  ```
-- gt (Greater Than)
-PersonalId dəyəri 5-dən böyük olanları gətir
-```
-https://localhost:5001/odata/personel?$filter=personelid gt 5
-```
-- ge(Greater Equal)
-PersonalId dəyəri 5 və 5-dən böyük olanları gətir.
-```
-https://localhost:5001/odata/personel?$filter=personelid ge 5
-```
-- lt(Less Than)
-PersonalId dəyəri 5-dən kiçik olanları gətir.
-```
-https://localhost:5001/odata/personel?$filter=personelid lt 5
-```
-- le(Less Equal)
-PersonalId dəyəri 5-dən kiçik və 5-ə bərabər olanları gətir.
-```
-https://localhost:5001/odata/personel?$filter=personelid le 5
-```
+  - eq (Equal)
+    Ölkə Adı USA olanları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=ulke eq 'USA'
+    ```
+  - ne (Not Equal)
+    Ölkə adı USA olmayanları gətir
+    ```
+    https://localhost:5001/odata/personal?$filter=ulke ne 'USA'
+    ```
+  - gt (Greater Than)
+    PersonalId dəyəri 5-dən böyük olanları gətir
+    ```
+    https://localhost:5001/odata/personal?$filter=personalid gt 5
+    ```
+  - ge(Greater Equal)
+    PersonalId dəyəri 5 və 5-dən böyük olanları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=personalid ge 5
+    ```
+  - lt(Less Than)
+    PersonalId dəyəri 5-dən kiçik olanları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=personalid lt 5
+    ```
+  - le(Less Equal)
+    PersonalId dəyəri 5-dən kiçik və 5-ə bərabər olanları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=personalid le 5
+    ```
 <br>
 
-<b>Məntiqi Operatorlar</b> <br>
+<b>Məntiqi Operatorlar</b> <br>  
+  - and
+    Ölkəsi USA olanlar və bölgəsi WA olan personalları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=country eq 'USA' and region eq 'WA'
+    ```
+  - or
+    Ölkəsi USA olanlar və ya bölgəsi WA olan personalları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=country eq 'USA' or region eq 'WA'
+    ```
+
+<b>Aritmetik Operatorlar</b> <br>
+  - add (Addition)
+    Maaşa 500 əlavə olunduqda 1500-ə bərabər olan personalları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=salary add 500 eq 1500
+    ```
+  - sub (Subtraction)
+    Maaşından 500 manat çıxdıqda 1500-ə bərabər olan personalları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=salary sub 500 eq 1500
+    ```
+  - mul (Multiplication)
+    Maaşı 1.5 ilə vuranda 1500-ə bərabər olan personalları gətir.
+    ```
+    https://localhost:5001/odata/personal?$filter=salary mul 500 eq 1500
+    ```
+  - div (Division)
+    Maaşı 3-ə böləndə 1500-ə bərabər olan personalları gətir.
+    ```
+        https://localhost:5001/odata/personal?$filter=salary div 500 eq 1500
+    ```
+
+  
