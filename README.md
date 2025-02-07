@@ -233,15 +233,8 @@ app.UseEndpoints(endpoints =>
 <br>
 <br>
 
-<storng>$orderby:</strong><br>
+<storng>$count:</strong><br>
 Gələn data miqdarının sayını verir.Bu seçimi istifadə edə bilmək üçün endpoint üzərindən aşağıdakı kimi təyin olunmalıdır.:<br>
-```
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapODataRoute("odata", "odata", builder.GetEdmModel());
-    endpoints.Filter().Count();
-});
-```
 
 Nümunə olaraq aşağıdakı sorğuları incələyə bilərsiniz:
 Toplam qeyd sayını gətirir.
